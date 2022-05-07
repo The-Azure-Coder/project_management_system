@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            * {
+                padding: 0;
+                margin: 0;
+            }
+
+            body {
+                background-image: url('/images/undraw_attached_file_re_0n9b.svg');
+                background-position: top;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+
+            .project-frm {
+
+                background-color: rgba(5, 179, 130, 0.805);
+                padding: 30px;
+                width: 25rem;
+                height: 37.3rem;
+
+            }
+
+            .project-frm label {
+                display: block;
+                font-size: 12px;
+                color: white;
+
+
+            }
+
+            .project-frm input {
+                display: block;
+                color: rgba(255, 255, 255, 0.77);
+                background: transparent;
+                border: 1px solid rgba(255, 255, 255, 0.676);
+                margin-bottom: 1rem;
+                border-radius: .2rem;
+                padding: 15px;
+                width: 20rem;
+                outline: none;
+            }
+
+            .project-head {
+                color: #fff;
+                padding-top: 4rem;
+                margin-bottom: .6rem;
+            }
+
+
+            .project-text {
+                color: #fff;
+                margin-bottom: 2rem;
+            }
+
+            .post-btn {
+                border: none;
+                margin-top: 1rem;
+                background-color: #fff;
+                padding: 15px;
+                width: 22rem;
+                border-radius: .2rem;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+<body>
+
+
+    <form action="/notes/add" method="post" class="project-frm">
+        <h2 class="project-head">Add Notes </h2>
+        <p class="project-text">Add a note to your Project</p>
+        <label for="">Project Id</label>
+        <input type="text" name="project_id">
+        <label for="">Note</label>
+        <input type="text" name="note">
+        <button class="post-btn" type="submit">Post Note</button>
+
+    </form>
+
+
+
+</body>
+
+
+
+</html>

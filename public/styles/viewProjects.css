@@ -1,0 +1,300 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header .nav-con {
+    display: flex;
+    padding: 15px;
+    line-height: 35px;
+    background-color: rgb(252, 252, 252);
+    height: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+
+header .nav-con .register a {
+    margin-right: 1.1rem;
+}
+
+
+header .nav-con .register .signUp {
+    margin-right: 1.1rem;
+    padding: 10px;
+    border: 1px solid rgb(7, 242, 175);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(7, 242, 175);
+
+
+}
+
+
+header .nav-con .logo {
+    padding-right: 4rem;
+    margin-left: 6rem;
+    color: rgb(7, 242, 175);
+    font-size: 18px;
+}
+
+header .nav-con .main-nav a .logo {
+    color: rgb(7, 242, 175);
+    font-size: 20px;
+}
+
+header .nav-con .main-nav {
+    margin-right: 38rem;
+}
+
+header .nav-con .main-nav a span {
+    margin-right: 1.1rem;
+    color: black;
+}
+
+.background {
+    background-image: url('/images/undraw_multitasking_hqg3.svg');
+    background-position: bottom;
+    background-size: cover;
+    height: 20rem;
+}
+
+.note-background {
+    background-image: url('/images/undraw_programming_re_kg9v.svg');
+    background-position: center;
+    background-size: cover;
+    height: 20rem;
+}
+
+.background h2 {
+    margin-left: 30rem;
+    padding-top: 6rem;
+    /* color: white; */
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.note-background h2 {
+    margin-left: 30rem;
+    padding-top: 6rem;
+    color: white;
+    text-shadow: 3px 5px 2px #474747;
+    font-size: 4rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+
+
+#notes {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 50px auto;
+
+}
+
+#notes td,
+#notes th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    width: 8rem;
+    color: #777;
+    font-size: 12px;
+
+}
+
+#notes .head-color {
+    background-color: rgb(7, 242, 175);
+    color: white;
+
+
+}
+
+#notes tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#notes tr:hover {
+    background-color: #ddd;
+}
+
+#notes th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    /* background-color: rgb(7, 242, 175); */
+    /* color: white; */
+}
+
+#notes td a img {
+    width: 25px;
+    display: inline;
+    margin-right: .8rem;
+}
+
+#projects {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+    margin: 50px auto;
+}
+
+#projects td,
+#projects th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    width: 8rem;
+    color: #777;
+    font-size: 12px;
+
+}
+
+#projects tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#projects tr:hover {
+    background-color: #ddd;
+}
+
+#projects th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(7, 242, 175);
+    color: white;
+}
+
+#projects td a img {
+    width: 25px;
+    display: inline;
+    margin-right: .6rem;
+}
+
+
+.plus a img {
+    width: 50px;
+    margin-left: 68rem;
+}
+
+.note-head {
+    margin-left: 12rem;
+    margin-bottom: 1.1rem;
+}
+
+.note-con {
+    border: 1px solid #777;
+    margin: 0 auto;
+    width: 60rem;
+    height: 15rem;
+    margin-bottom: 1.5rem;
+}
+
+.newNote {
+    background-color: rgb(80, 212, 157);
+    color: white;
+    padding: 10px;
+    margin-left: 64.5rem;
+}
+
+footer {
+    margin-top: 2rem;
+    padding-top: 4rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(252, 252, 252);
+
+}
+
+
+.contact i {
+    color: rgb(7, 242, 175);
+    padding-right: .8rem;
+}
+
+.contact span {
+    display: block;
+    /* color: white; */
+    padding-bottom: 1.3rem;
+}
+
+.contact span i {
+    padding-right: .8rem;
+    /* color: white; */
+}
+
+.links h2 {
+    /* color: white; */
+    margin-bottom: 2rem;
+}
+
+.links span {
+    display: block;
+    /* color: white; */
+    padding-bottom: 1.3rem;
+}
+
+.links span i {
+    padding-right: .6rem;
+    color: rgb(90, 238, 176);
+
+}
+
+.services h2 {
+    /* color: white; */
+    margin-bottom: 2rem;
+}
+
+.services span {
+    display: block;
+    /* color: white; */
+    padding-bottom: 1.3rem;
+}
+
+.services span i {
+    padding-right: .6rem;
+    color: rgb(90, 238, 176);
+
+}
+
+
+.news h2 {
+    /* color: white; */
+    margin-bottom: 2rem;
+}
+
+.news p {
+    /* color: white; */
+}
+
+.news span {
+    color: rgb(90, 238, 176);
+}
+
+.news .content {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.news .img img {
+    width: 8rem;
+}
+
+.news .content .text {
+    margin-left: 1.1rem;
+    width: 10rem;
+}
+
+
+.copy {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(7, 242, 175);
+    ;
+}
+
+.copy label {
+    padding: 5px;
+    /* color: #fff; */
+}
