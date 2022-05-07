@@ -1,8 +1,8 @@
 
 const path = require('path');
 const express = require('express');
-const ejs = require('ejs');
 const bodyparser = require('body-parser');
+const layout = require('express-ejs-layouts')
 const app = express();
 const router = express.Router();
 const db = require('./database')
@@ -25,17 +25,20 @@ var homeRouter = require('./routes/home')
 var notesRouter = require('./routes/notes')
 var projectRouter = require('./routes/project')
 
+app.use(layout)
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static('public'));
+app.use('/images', express.static('images'));
+
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
+app.set('layout', 'layouts/layout')
 
 app.use('/', homeRouter);
 app.use('/notes', notesRouter);
 app.use('/project', projectRouter);
 
-app.use(express.json());
-app.use(express.urlencoded());
-app.use(express.static('public'));
-app.use('/images', express.static('images'));
 
 
 

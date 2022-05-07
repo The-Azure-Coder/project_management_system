@@ -70,5 +70,14 @@ router.post('/add', (req, res) => {
     });
 });
 
+router.get('/delete/:noteId', (req, res) => {
+    const id = req.params.noteId;
+    let sql = `DELETE from amberapp2.notes where id = ${id}`;
+    db.query(sql, (err, results) => {
+        if (err) throw err;
+        res.redirect('/notes/view')
+    });
+});
+
 
 module.exports = router;

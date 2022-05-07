@@ -13,9 +13,11 @@ body {
 .project-frm {
 
     background-color: rgb(5, 179, 129);
+
     padding: 30px;
+    padding-top: 6rem;
     width: 25rem;
-    height: 37.3rem;
+    height: 40rem;
 
 }
 
